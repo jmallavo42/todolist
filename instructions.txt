@@ -1,0 +1,30 @@
+User inputs new todo
+User inputs quit or q
+User inputs list
+User inputs new
+User inputs deleted
+
+	1. Prompt the user "what would you like to do?" and save it to a variable input (note to use let because it will be reused later on);
+	2. Create an array with at least two items and save it as a constant variable todos;
+	3. Create a while loop so that when a user input is not exactly equal to "quit or "q" as the first thing then its done but if they  don’t, continuously prompt the user again.
+
+	1. If user input is exactly equal to list 
+	2. then console log a lot string of asterisks
+
+	1. Loop over array using i (start at index 0 then keep looping and incrementing I until highest index in the todos array is met, then stop before hitting the length of the array.
+	2. Console log a string template literal, showing index and array;
+	3. Console log a lot of asterisks
+
+	1. Add another conditional check else if user input is exactly equal to "new" to implement a new to do. 
+	2. Prompt the user "Ok, what is the new to do?" and save it to a new variable constant newTodo;
+	3. Take the result which will be a string by adding todos and pushing newTodo to the end of a new array;
+	4. Console log with a string template literal showing the newTodo "added to the list!")
+
+	1. Add another conditional check else if user input is exactly equal to "delete" to delete a to do. 
+	2. Add a new constant index  then prompt "Ok, enter an index to delete:" then parseInt to make sure user is entering a number;
+	3. Check if number is not a number of index (meaning its valid)
+	4. Splice from the user's index and only one for element from todos variable and save it to a new constant deleted;
+	5. Then console log with a string template literal array `Ok, deleted (then the todos that was deleted);
+	6. Else console log "Unknown index");
+	7. Prompt user "what would you like to do?"
+Console log "ok you quit the app"
